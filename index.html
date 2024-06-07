@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLA</title>
+    <style>
+        /* Body Styles */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Header Styles */
+        .header {
+            background: linear-gradient(to right, #FF5733, #FFC300); /* Gradient background */
+            padding: 20px 0;
+        }
+
+        .logo img {
+            height: 50px;
+        }
+
+        .navigation {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+        }
+
+        .navbar-nav {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar-nav li {
+            display: inline-block;
+            margin-left: 20px;
+        }
+
+        .navbar-nav li a {
+            color: #fff;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+
+        .navbar-nav li a:hover {
+            color: #FF5733; 
+            cursor: pointer; 
+        }
+
+        /* Additional Styles */
+        .titlepage h2 {
+            color: #333;
+        }
+
+        .titlepage p {
+            color: #777;
+        }
+
+        .read_more {
+            color: #FF5733;
+            text-decoration: none;
+        }
+
+        .read_more:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer Styles */
+        .footer {
+            background-color: #333;
+            color: #fff;
+            padding: 40px 0;
+        }
+
+        .footer .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .footer .col {
+            flex: 1;
+            text-align: center;
+        }
+
+        .social_icon li {
+            display: inline-block;
+            margin-right: 10px;
+        }
+
+        .social_icon li a {
+            color: #fff;
+        }
+
+        .about_us, .conta {
+            list-style: none;
+            padding: 0;
+        }
+
+        .about_us li, .conta li {
+            margin-bottom: 10px;
+        }
+
+        .footer p {
+            margin: 0;
+        }
+
+        .footer p span {
+            color: #FF5733;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="container">
+                <div class="row">
+                    <div class="col logo_section">
+                        <div class="logo">
+                            <a href="index.html"><img src="images/logo.png" alt="#" /></a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <nav class="navigation">
+            
+                            <ul class="navbar-nav">
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="about.html">About</a></li>
+                                <li><a href="computer.html">Computer</a></li>
+                                <li><a href="laptop.html">Laptop</a></li>
+                                <li><a href="product.html">Products</a></li>
+                                <li><a href="contct1.html">Contact Us</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="titlepage">
+                        <h2>About Us</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                        <a class="read_more" href="#">Read More</a>
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <div class="about_img">
+                        <figure><img src="images/about.jpg" alt="#"/></figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <img class="logo1" src="images/logo.png" alt="#"/>
+                        <ul class="social_icon">
+                            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <h3>About Us</h3>
+                        <ul class="about_us">
+                            <li>we are trusted<br> CEO Creations<br>minim veniam, <br> quisdotempor incididunt r</li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <h3>Contact Us</h3>
+                        <ul class="conta">
+                            <li>Creations +225 676144193<br> consectetur <br>magna aliqua.<br> quisdotempor <br>incididunt ut e </li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <form class="bottom_form">
+                            <h3>Newsletter</h3>
+                            <input class="enter" placeholder="Enter your email" type="text" name="Enter your email">
+                            <button class="sub_btn">subscribe</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <p>© 2023 All Rights Reserved. Designed by <span>Creations</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
